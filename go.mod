@@ -6,9 +6,11 @@ require (
 	github.com/containers/buildah v1.8.4
 	github.com/containers/image/v4 v4.0.1
 	github.com/containers/storage v1.13.4
-	github.com/docker/docker v0.0.0-20180522102801-da99009bbb11
+	github.com/docker/docker v23.0.1+incompatible
 	github.com/dsnet/compress v0.0.1 // indirect
 	github.com/go-check/check v0.0.0-20180628173108-788fd7840127
+	github.com/moby/term v0.0.0-20221205130635-1aeaba878587 // indirect
+	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0-rc1
 	github.com/opencontainers/image-spec v1.0.2-0.20190823105129-775207bd45b6
 	github.com/opencontainers/image-tools v0.0.0-20170926011501-6d941547fa1d
@@ -22,5 +24,7 @@ require (
 	github.com/urfave/cli v1.20.0
 	github.com/xeipuuv/gojsonschema v1.1.0 // indirect
 	go4.org v0.0.0-20190218023631-ce4c26f7be8e // indirect
+	golang.org/x/time v0.3.0 // indirect
+	gotest.tools/v3 v3.4.0 // indirect
 	k8s.io/client-go v0.0.0-20181219152756-3dd551c0f083 // indirect
 )
